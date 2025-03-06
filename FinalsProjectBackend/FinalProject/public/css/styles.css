@@ -1,0 +1,131 @@
+body {
+    background-color: #797a79;
+    color: #f19010;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+    background-color: #f19010;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #f19010;
+    transform: scale(1.04);
+}
+
+/* Input and Select Styling */
+input, select {
+    border: 1.5px solid #f19010;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #f19010;
+    outline: none;
+    box-shadow: 0 0 6px rgba(16, 185, 129, 0.4);
+}
+
+/* Link Styling */
+a {
+    color: #f19010;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #f19010;
+    text-decoration: underline;
+}
+
+/* Header and Footer */
+header {
+    background-color: #f19010;
+    color: rgb(124, 122, 122);
+    padding: 24px 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 5px solid #f19010;
+}
+
+footer {
+    background-color: #f19010;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+/* Card Styling */
+.card {
+    border: 1px solid #f19010;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #f19010;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    margin: 12px 0 8px;
+    font-weight: 600;
+    color: #064e3b;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #047857;
+    margin-bottom: 12px;
+}
